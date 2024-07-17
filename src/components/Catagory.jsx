@@ -6,7 +6,7 @@ import Videocard from "./Videocard"
 import { addCatagoryApi, getAllCatagory, removeCatagoryApi, updateCatagoryApi } from '../services/allapi';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -156,7 +156,7 @@ function Catagory({dragOut,setDragOut}) {
         </Modal.Footer>
       </Modal>
 
-      <ToastContainer position="top-center" theme="colored" autoClose="2000" />
+      
 
     </>
   )
